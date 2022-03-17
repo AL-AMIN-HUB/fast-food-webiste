@@ -57,7 +57,7 @@ const Navbar = () => {
                   className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white cta"
                   aria-current="page"
                 >
-                  <span class="hover-underline-animation">Home</span>
+                  <span className="hover-underline-animation">Home</span>
                 </Link>
               </li>
               <li>
@@ -66,7 +66,7 @@ const Navbar = () => {
                   className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white cta"
                   aria-current="page"
                 >
-                  <span class="hover-underline-animation">Shop</span>
+                  <span className="hover-underline-animation">Shop</span>
                 </Link>
               </li>
               <li>
@@ -75,7 +75,7 @@ const Navbar = () => {
                   className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white cta"
                   aria-current="page"
                 >
-                  <span class="hover-underline-animation">Products</span>
+                  <span className="hover-underline-animation">Products</span>
                 </Link>
               </li>
               <li>
@@ -84,7 +84,7 @@ const Navbar = () => {
                   className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white cta"
                   aria-current="page"
                 >
-                  <span class="hover-underline-animation">About us</span>
+                  <span className="hover-underline-animation">About us</span>
                 </Link>
               </li>
               <li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                   className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white cta"
                   aria-current="page"
                 >
-                  <span class="hover-underline-animation">Contact</span>
+                  <span className="hover-underline-animation">Contact</span>
                 </Link>
               </li>
             </ul>

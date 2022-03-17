@@ -1,21 +1,21 @@
 import React from "react";
 import "./Banner.css";
+import BannerSlider from "./BannerSlider";
 
 const Banner = () => {
   return (
-    <div class="parent">
-      <div class="div1">
-        {" "}
-        <img src="https://i.ibb.co/LvD3vy2/Screenshot-1.png" alt="" />
+    <div className="parent">
+      <div className="div1">
+        <BannerSlider />
       </div>
-      <div class="div2">
-        <div class="parent2">
-          <div class="div3">
+      <div className="div2">
+        <div className="parent2">
+          <div className="div3">
             {" "}
             <img src="https://i.ibb.co/LvD3vy2/Screenshot-1.png" alt="" />
           </div>
-          <div class="div4">
-            <img src="https://i.ibb.co/LvD3vy2/Screenshot-1.png" alt="" />{" "}
+          <div className="div4">
+            <img src="https://i.ibb.co/pXZVYCW/shutterstock-428426212-600x449.jpg" alt="" />{" "}
           </div>
         </div>{" "}
       </div>
