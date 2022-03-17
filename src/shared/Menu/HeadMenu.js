@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import NavInfo from "./NavInfo";
 import "./HeadMenu.css";
 import Banner from "../../components/pages/Banner/Banner";
+import FoodSlider from "../../components/pages/Banner/FoodSlider";
 
 const HeadMenu = () => {
   return (
@@ -13,6 +14,7 @@ const HeadMenu = () => {
         <Navbar />
 
         <Banner />
+        <FoodSlider />
       </div>
     </div>
   );

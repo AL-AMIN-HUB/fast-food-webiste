@@ -27,6 +27,22 @@
 }
 
 .div_slider > img,
-.div4 > img {
+.div4 > img,
+.div5 > img,
+.div6 > img {
   height: 100%;
+}
+.parent3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.div5 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div6 {
+  grid-area: 1 / 2 / 2 / 3;
 }

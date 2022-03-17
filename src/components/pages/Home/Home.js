@@ -4,9 +4,11 @@ import HeadMenu from "../../../shared/Menu/HeadMenu";
 
 const Home = () => {
   return (
-    <div className="home">
-      <HeadMenu />
-      <h1 className="text-3xl text-dark-900 text-center">Hello World</h1>
+    <div>
+      <div className="home">
+        <HeadMenu />
+      </div>
+      <div className="bg-red-700 my-20 py-16 px-16 container mx-auto">Our Products</div>
     </div>
   );
 };
