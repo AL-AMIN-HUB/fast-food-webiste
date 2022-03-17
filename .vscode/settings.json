@@ -1,0 +1,9 @@
+{
+  "tailwindCSS.validate": false,
+  "tailwindCSS.emmetCompletions": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#4B0968",
+    "titleBar.activeBackground": "#680D92",
+    "titleBar.activeForeground": "#FDF8FE"
+  }
+}
