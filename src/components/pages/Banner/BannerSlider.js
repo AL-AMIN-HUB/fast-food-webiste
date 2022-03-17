@@ -16,27 +16,15 @@ const BannerSlider = () => {
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div className="carousel-inner relative w-full overflow-hidden">
-        <div className="carousel-item active relative float-left w-full">
-          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg" className="block w-full h-100" alt="..." />
-          <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
+      <div className="carousel-inner relative h-full w-full overflow-hidden">
+        <div className="carousel-item active relative float-left div_slider w-full">
+          <img src="https://i.ibb.co/6X3z946/resized-image-Promo-5.jpg" className="block w-full h-100" alt="..." />
         </div>
-        <div className="carousel-item relative float-left w-full">
-          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" className="block w-full" alt="..." />
-          <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+        <div className="carousel-item relative float-left w-full div_slider">
+          <img src="https://i.ibb.co/ynNfG8z/resized-image-Promo-4.jpg" className="block w-full" alt="..." />
         </div>
-        <div className="carousel-item relative float-left w-full">
-          <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg" className="block w-full" alt="..." />
-          <div className="carousel-caption hidden md:block absolute text-center">
-            <h5 className="text-xl">Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+        <div className="carousel-item relative float-left w-full div_slider">
+          <img src="https://i.ibb.co/xjD1XyD/resized-image-Promo-3.jpg" className="block w-full" alt="..." />
         </div>
       </div>
       <button

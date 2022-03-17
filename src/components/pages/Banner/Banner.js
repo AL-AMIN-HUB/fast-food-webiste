@@ -4,18 +4,20 @@ import BannerSlider from "./BannerSlider";
 
 const Banner = () => {
   return (
-    <div className="parent">
+    <div className="parent px-16">
       <div className="div1">
-        <BannerSlider />
+        <div className="w-full h-full">
+          <BannerSlider />
+        </div>
       </div>
       <div className="div2">
         <div className="parent2">
           <div className="div3">
             {" "}
-            <img src="https://i.ibb.co/LvD3vy2/Screenshot-1.png" alt="" />
+            <img className="w-full h-full" src="https://i.ibb.co/87jdKhd/resized-image-Promo-1.jpg" alt="" />
           </div>
           <div className="div4">
-            <img src="https://i.ibb.co/pXZVYCW/shutterstock-428426212-600x449.jpg" alt="" />{" "}
+            <img className="w-full h-full" src="https://i.ibb.co/y0Qz8QX/Screenshot-4.png" alt="" />{" "}
           </div>
         </div>{" "}
       </div>
