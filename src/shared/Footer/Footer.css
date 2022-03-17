@@ -1,0 +1,12 @@
+.footer_bg {
+  background-image: url(https://i.ibb.co/9gT5rQK/360-F-198506301-z-S7-IDI4-YU7k-W0z-FVagj-Twl8-AVI7l-Zvj-P.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-blend-mode: multiply;
+}
+
+li {
+  list-style-type: none;
+}
