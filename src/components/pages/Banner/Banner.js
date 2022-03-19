@@ -1,4 +1,5 @@
 import React from "react";
+import Countdown from "../Countdown/Countdown";
 import "./Banner.css";
 import BannerSlider from "./BannerSlider";
 
@@ -9,14 +10,22 @@ const Banner = () => {
         <div className="div1">
           <div className="w-full h-full">
             <BannerSlider />
+
+            <div className="fill_out_image">
+              <div className="content_fill_out_image h-full ">
+                <h2 className="text-white text-center pt-20">Hello Customer</h2>
+              </div>
+            </div>
           </div>
         </div>
         <div className="div2">
           <div className="parent2">
             <div className="div3">
               {" "}
-              <img className="w-full h-full" src="https://i.ibb.co/87jdKhd/resized-image-Promo-1.jpg" alt="" />
+              {/* <img className="w-full h-full" src="https://i.ibb.co/87jdKhd/resized-image-Promo-1.jpg" alt="" /> */}
+              <Countdown />
             </div>
+
             <div className="div4">
               <img className="w-full h-full" src="https://i.ibb.co/y0Qz8QX/Screenshot-4.png" alt="" />{" "}
             </div>

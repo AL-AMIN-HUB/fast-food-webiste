@@ -1,5 +1,6 @@
 import React from "react";
 import "boxicons";
+import { Link } from "react-router-dom";
 
 const NavInfo = () => {
   return (
@@ -19,10 +20,15 @@ const NavInfo = () => {
         </div>
         <div className="icon flex ">
           <div className="icon1 w-12 h-12 bg-neutral-50 rounded-full ring-1 flex items-center justify-center mr-3 cursor-pointer">
-            <box-icon title="Sign up" type="solid" name="user"></box-icon>
+            <Link to="/login">
+              {" "}
+              <box-icon title="Sign up" type="solid" name="user"></box-icon>
+            </Link>
           </div>
           <div className="icon1 w-12 h-12 bg-red-500 rounded-full ring-1 flex items-center justify-center cursor-pointer ">
-            <box-icon title="Cart" color="white" name="cart-add" type="solid"></box-icon>
+            <Link to="/cart">
+              <box-icon title="Cart" color="white" name="cart-add" type="solid"></box-icon>
+            </Link>
           </div>
         </div>
       </div>
